@@ -1,0 +1,32 @@
+{
+  "name": "agentdiff",
+  "version": "0.1.0",
+  "description": "See what your AI coding agent changed — from a security perspective. Pure SVG diff. Local.",
+  "bin": {
+    "agentdiff": "./bin/agentdiff.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/agentdiff.js"
+  },
+  "keywords": [
+    "security",
+    "ai",
+    "agent",
+    "diff",
+    "svg",
+    "cli",
+    "cursor",
+    "claude"
+  ],
+  "author": "Ilyas Akbar Almadani",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
